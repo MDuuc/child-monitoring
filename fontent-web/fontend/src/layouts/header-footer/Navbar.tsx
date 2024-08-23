@@ -45,10 +45,10 @@ function NavBar(){
                             </div>
                         </div>
 
-                        <div>
-                            {/* <CustomerNav/>/ */}
+                        <div className=" flex flex-2 items-center justify-center">
+                            <CustomerNav/>/
                             {/* for user */}
-                            <UserNav/>
+                            {/* <UserNav/> */}
                         </div>
                     </div>
                 </div>
