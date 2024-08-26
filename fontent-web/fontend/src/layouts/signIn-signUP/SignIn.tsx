@@ -18,12 +18,14 @@ function SignIn(){
 				</div>
 				<div className="divide-y divide-gray-200">
 					<div className="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
+						{/* email */}
 						<div className="relative">
-							<input  id="email" name="email" type="text" className="peer placeholder-transparent h-10 w-full border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:borer-rose-600" placeholder="Email address" />
+							<input  id="email" name="email" type="text" className="text-sm pr-12 peer placeholder-transparent h-10 w-full border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:borer-rose-600" placeholder="Email address" />
 							<label className="absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Email Address</label>
 						</div>
+						{/* password */}
 						<div className="relative">
-							<input id="password" name="password" type={showPassword?"password":"text"} className="peer placeholder-transparent h-10 w-full border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:borer-rose-600" placeholder="Password" />
+							<input id="password" name="password" type={showPassword?"password":"text"} className="text-sm pr-12 peer placeholder-transparent h-10 w-full border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:borer-rose-600" placeholder="Password" />
 							<label className="absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Password</label>
                             {/* Eye show password */}
                             <div className="absolute inset-y-5 end-0 grid place-content-center px-4" onClick={()=>{setshowPassword(!showPassword)}}>
@@ -31,7 +33,8 @@ function SignIn(){
                             </div>
 						</div>
 						<div className="relative flex justify-end text-base ">
-							<button className="bg-blue-500 text-gray-200 hover:text-white rounded-md px-4 py-1">Submit</button>
+							<button className="bg-blue-500 text-white rounded-md px-4 py-1">Submit</button>
+
 						</div>
                         <div className="relative flex text-end items-center">
                             <div className="text-sm">Continue with:</div>
@@ -43,7 +46,7 @@ function SignIn(){
 
                         <div className="relative flex justify-end">
                             <div className="text-sm me-2">No Account?</div>
-                            <NavLink to="/sign-up" className="text-sm text-blue-500 hover:text-blue-400">Sign up</NavLink>
+                            <NavLink to="/sign-up" className="text-sm"><span>Sign up</span></NavLink>
                         </div>
 					</div>
 				</div>
