@@ -33,7 +33,7 @@ function SignIn(){
                             </div>
 						</div>
 						<div className="relative flex justify-end text-base ">
-							<button className="bg-blue-500 text-white rounded-md px-4 py-1">Submit</button>
+							<button className="bg-blue-500 text-white hover:bg-cyan-950 transition ease-in duration-300 rounded-md px-4 py-1">Submit</button>
 
 						</div>
                         <div className="relative flex text-end items-center">

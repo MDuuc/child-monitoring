@@ -30,7 +30,7 @@ function SignUp(){
 							<label className="absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Repeat Password</label>
 						</div>
 						<div className="relative flex justify-end text-base">
-							<button className="bg-blue-500 text-white rounded-md px-4 py-1">Register Now</button>
+							<button className="bg-blue-500 text-white hover:bg-cyan-950 transition ease-in duration-300 rounded-md px-4 py-1">Register Now</button>
 						</div>
 					</div>
 				</div>
